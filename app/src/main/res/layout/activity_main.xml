@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/idPermissao"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:text="@string/concederPermissao"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/idAtivado"
+        android:layout_width="149dp"
+        android:layout_height="45dp"
+        android:text="@string/ativarGps"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <Button
+        android:id="@+id/idDesativado"
+        android:layout_width="161dp"
+        android:layout_height="48dp"
+        android:text="@string/desativarGps"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <Button
+        android:id="@+id/idInicio"
+        android:layout_width="149dp"
+        android:layout_height="51dp"
+        android:text="@string/inicioPercurso"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <Button
+        android:id="@+id/idTermino"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:text="@string/terminoPercurso"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <TextView
+        android:id="@+id/idDistancia"
+        android:layout_width="75dp"
+        android:layout_height="39dp"
+        android:text="@string/distancia"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@+id/idTempo"
+        android:layout_width="76dp"
+        android:layout_height="41dp"
+        android:text="@string/tempo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <EditText
+        android:id="@+id/idPesquisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/pesquisa"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <Button
+        android:id="@+id/idBotaoPesquisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPesquisar"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <EditText
+        android:id="@+id/idTempo_editText"
+        android:layout_width="227dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <EditText
+        android:id="@+id/idDistancia_editText"
+        android:layout_width="226dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+
+</android.support.constraint.ConstraintLayout>

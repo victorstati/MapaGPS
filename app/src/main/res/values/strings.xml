@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MapaGPS</string>
+    <string name="concederPermissao">Conceder permissão de GPS</string>
+    <string name="ativarGps">Ativar GPS</string>
+    <string name="desativarGps">Desativar Gps</string>
+    <string name="terminoPercurso">Terminar Percurso</string>
+    <string name="inicioPercurso">Iniciar Percurso</string>
+    <string name="distancia">Distância Percorrida</string>
+    <string name="tempo">Tempo Passado</string>
+    <string name="pesquisa">O que deseja encontrar?</string>
+    <string name="btnPesquisar">Pesquisar</string>
+</resources>
